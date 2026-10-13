@@ -1,0 +1,18 @@
+{
+  "name": "pstack-claude",
+  "owner": { "name": "StuartH1" },
+  "description": "Claude Code marketplace for poteto's pstack. Fork of poteto/plugins; pstack/ is kept identical to upstream.",
+  "plugins": [
+    {
+      "name": "pstack",
+      "source": "./pstack",
+      "description": "poteto's pstack: /pstack:poteto-mode plus how, why, architect, arena, interrogate, principle skills and the poteto-agent subagent.",
+      "version": "0.9.0",
+      "author": { "name": "Lauren Tan" },
+      "license": "MIT",
+      "strict": false,
+      "skills": "./skills/",
+      "agents": ["./agents/poteto-agent.md"]
+    }
+  ]
+}
