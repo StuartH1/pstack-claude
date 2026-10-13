@@ -9,7 +9,7 @@
       "name": "pstack",
       "source": "./pstack",
       "description": "poteto's pstack: /pstack:poteto-mode plus how, why, architect, arena, interrogate, principle skills and the poteto-agent subagent.",
-      "version": "0.9.0",
+      "version": "0.15.23",
       "author": {
         "name": "Lauren Tan"
       },
@@ -17,7 +17,8 @@
       "strict": false,
       "skills": "./skills/",
       "agents": [
-        "./agents/poteto-agent.md"
+        "./agents/poteto-agent.md",
+        "./agents/comment-sicko.md"
       ]
     },
     {
