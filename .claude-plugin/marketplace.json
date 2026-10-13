@@ -1,6 +1,8 @@
 {
   "name": "pstack-claude",
-  "owner": { "name": "StuartH1" },
+  "owner": {
+    "name": "StuartH1"
+  },
   "description": "Claude Code marketplace for poteto's pstack. Fork of poteto/plugins; pstack/ is kept identical to upstream.",
   "plugins": [
     {
@@ -8,11 +10,31 @@
       "source": "./pstack",
       "description": "poteto's pstack: /pstack:poteto-mode plus how, why, architect, arena, interrogate, principle skills and the poteto-agent subagent.",
       "version": "0.9.0",
-      "author": { "name": "Lauren Tan" },
+      "author": {
+        "name": "Lauren Tan"
+      },
       "license": "MIT",
       "strict": false,
       "skills": "./skills/",
-      "agents": ["./agents/poteto-agent.md"]
+      "agents": [
+        "./agents/poteto-agent.md"
+      ]
+    },
+    {
+      "name": "cursor-team-kit",
+      "source": "./cursor-team-kit",
+      "description": "Cursor team workflows that pstack's poteto-mode routes to: deslop, control-cli, control-ui, verify-this, fix-ci, review-and-ship and more.",
+      "version": "1.2.0",
+      "author": {
+        "name": "Cursor"
+      },
+      "license": "MIT",
+      "strict": false,
+      "skills": "./skills/",
+      "agents": [
+        "./agents/ci-watcher.md",
+        "./agents/thermo-nuclear-code-quality-review.md"
+      ]
     }
   ]
 }
